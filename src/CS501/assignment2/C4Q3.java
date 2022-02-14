@@ -31,6 +31,8 @@ public class C4Q3 {
     boolean isOneTriangle = isTriangle(oneSide1, oneSide2, oneSide3);
     boolean isTwoTriangle = isTriangle(twoSide1, twoSide2, twoSide3);
 
+
+
     if (isOneTriangle && isTwoTriangle) {
       double oneArea = getArea(oneSide1, oneSide2, oneSide3);
       double twoArea = getArea(twoSide1, twoSide2, twoSide3);
